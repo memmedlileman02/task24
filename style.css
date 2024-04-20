@@ -1,0 +1,38 @@
+
+#mainBtn {
+    padding: 12px 22px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#notifications {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notificationBtn {
+    padding: 12px 22px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.notificationBtn.info {
+    background-color: aqua;
+}
+
+.notificationBtn.warning {
+    background-color: orange;
+}
+
+.notificationBtn.error {
+    background-color: red;
+}
